@@ -1,0 +1,79 @@
+body {
+	margin: 0px;
+    padding: 0px;
+}
+
+.jumbotron {
+	background-image: url("../images/bapu.jpg");
+	background-size: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.jumbotron #header {
+	background-color: white;
+	font-weight: bold;
+    float: right;
+    color: black;
+    margin-right: 120px;
+    margin-top: 150px;
+}
+
+.jumbotron .gandhi-quote {
+    float: right;
+	width: 50%;
+	float: left;
+    margin-right: 80px;
+    color: black;
+}
+
+.jumbotron .gandhi-quote #quote {
+	background-color:white;
+	display: inline;
+    line-height: 35px;
+  	font-weight: bold;
+}
+
+.jumbotron .gandhi-quote #name {
+	text-align: left;
+	color: white;
+}
+
+.container {
+	text-align: center;
+	background-color: #dfc39e;
+	margin: 0px;
+	width: 100%;
+	color: black;
+}
+
+#title {
+   color: #33230e;
+}
+
+#description {
+	color: #000000;
+	font-weight: bold;
+}
+
+#img-div {
+  display: none;
+}
+
+#image {
+  display: block;
+  max-width: 100px;
+  height: auto;
+  margin: auto;
+}
+
+#content {
+   text-align: left;
+   margin-top: 20px;
+   font-size:2.5em;
+}
+
+#content a {
+	text-decoration: underline;
+}
