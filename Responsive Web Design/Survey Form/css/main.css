@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box; 
+}
+.header{
+  background-color: lightblue; 
+  padding: 1.5px; 
+}
+.body{
+  background-color: lightgreen; 
+}
+.container{
+  background-color:lightgreen; 
+  padding:20px; 
+}
+input[type=text], input[type=email] , input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.submitButton{
+  text-align:center; 
+  margin: 0 auto;
+}

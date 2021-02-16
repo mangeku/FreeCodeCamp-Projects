@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Surver Form</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="HTML, CSS" />
+        <meta name="keywords" content="survey form" />
+        <meta name="author" content="Laxman Sharma" />
+      
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+
+    <body class="body">
+      <header class="header">  
+        <h1 align="center" id="title"> Survey Form </h1>
+        <p align="center" id="description" > Anime Lover can give their survey here </p>
+      </header>
+      <div class="container" id="divid">
+          <form id="survey-form"> <br>
+            <label for="fname" id="name-label">Name</label> 
+            <input type="text" id="name" name="fname" placeholder="name" required><br>
+    <label for="femail" id="email-label">Email</label>
+             <input type="email" id="email" name="femail" placeholder="email" required><br>
+    <label for="age" id="number-label">age</label>
+              <input type="number" id="number" placeholder="age" required min="10" max="120">
+            <label for="gender">Choose your Gender:</label>
+  <select id="dropdown" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="others">Do not want to Disclose</option>
+  </select><br>
+            <p><b>Choose your favourite genres</b> </p> 
+   <input type="checkbox" id="action" name="genre" value="action">
+  <label for="action">Action</label><br>
+  <input type="checkbox" id="adventure" name="genre" value="adventure">
+  <label for="adventure">Adventure</label><br>
+  <input type="checkbox" id="magic" name="genre" value="magic">
+  <label for="magic">Magic</label><br>
+  <input type="checkbox" id="isekai" name="genre" value="isekai">
+  <label for="isekai">Isekai</label>
+  <br> 
+            <p><b>Choose from one of the legendary Anime</b></p> 
+  <input type="radio" id="AOT" name="legend" value="AOT">
+<label for="AOT">Attack on Titans</label><br>
+<input type="radio" id="naruto" name="legend" value="naruto">
+<label for="naruto">Naruto</label><br>
+<input type="radio" id="onePiece" name="legend" value="onePiece">
+<label for="onePiece">One Piece</label> 
+<br>
+<textarea rows="4" cols="50" name="comment" form="userform">
+Enter what do you like the most about your favorite genre.....</textarea>
+            <div class="submitButton" id="submitDiv"> 
+              <input type="submit" value="submit" id="submit">
+            </div> 
+          </form>
+      </div> 
+	
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<body>
+</html>
+
